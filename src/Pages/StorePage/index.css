@@ -1,0 +1,37 @@
+.store-top-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(./components/background.jpg);
+}
+.card{
+    width: 350px;
+    height: 570px;
+    filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.1));
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+}
+.card-title{
+    margin: 0 50px;
+}
+.card-btn{
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: linear-gradient(151deg, rgba(51,160,209,1) 20%, rgba(55,52,133,1) 54%, rgba(197,43,48,1) 100%);
+    border-radius: 40px;
+    border: none;
+    margin: 10px 25px;
+}
+.card-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
