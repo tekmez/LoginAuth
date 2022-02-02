@@ -1,3 +1,17 @@
+### Technologies and tools
+
+- Javascript
+- React
+- React Router
+- MockApi
+- Firebase
+
+![104](https://user-images.githubusercontent.com/79506815/152086777-6a78ea40-5954-4059-b90d-9494e0778238.jpg)
+![1044](https://user-images.githubusercontent.com/79506815/152086786-bfbc778b-abee-4850-923d-a6e10e65983d.jpg)
+![44](https://user-images.githubusercontent.com/79506815/152086792-b29f8b41-266a-4aa6-bc89-90086047bc1f.jpg)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
