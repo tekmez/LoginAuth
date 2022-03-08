@@ -34,6 +34,7 @@
     background: linear-gradient(151deg, rgba(51,160,209,1) 20%, rgba(55,52,133,1) 54%, rgba(197,43,48,1) 100%);
     border-radius: 100px;
     border: none;
+    transition: .2s;
 }
 .hello-btn:hover{
     cursor: pointer;

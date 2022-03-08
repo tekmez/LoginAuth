@@ -3,7 +3,7 @@ import React from "react";
 function Card() {
     return (
             <div className='card'>
-                <img src={require('./storePageCar.png')} alt="bmw"/>
+                <img src={require('./storePageCar.png')} className="card-img" alt="bmw"/>
                 <h2 className='card-title'>Model: BMW 4 Series</h2>
                 <p>
                     <ul>

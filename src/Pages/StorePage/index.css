@@ -27,11 +27,13 @@
     border-radius: 40px;
     border: none;
     margin: 10px 25px;
+    transition: .2s;
 }
 .card-btn:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
-img:hover{
+.card-img:hover{
+    transition: .2s;
     transform: scale(1.1);
 }
