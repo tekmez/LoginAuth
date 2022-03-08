@@ -15,7 +15,7 @@ const db= getFirestore(app);
 const auth = getAuth();
 const googleProvider = new GoogleAuthProvider();
 const githubProvider = new GithubAuthProvider();
-const facebookProvider = new FacebookAuthProvider
+const facebookProvider = new FacebookAuthProvider();
 
 export default db;
 export {auth, googleProvider, githubProvider, facebookProvider};
