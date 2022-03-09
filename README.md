@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e137f53-e8dc-48cc-bdb1-ee478e26a817/deploy-status)](https://app.netlify.com/sites/bmwstore/deploys) - [Bmw Store](https://bmwstore.netlify.app/)
+
 ### Technologies and tools
 
 - Javascript
