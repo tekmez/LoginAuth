@@ -8,7 +8,7 @@ import HubIcon from "./icons/hubIcon";
 import './index.css';
 
 function Button(props){
-    const {label} = props;
+    const {label, onClick} = props;
     const navigate = useNavigate()
     // Firstly in user is empty
     const [user, setUser] = useState(null);
@@ -44,7 +44,7 @@ function Button(props){
 
     return(
         <div>
-            <button className="sign-btn">{label}</button>
+            <button onClick={onClick} className="sign-btn">{label}</button>
             {label === 'Sign in' && (
             <div className="connect-field">
                 <p className="continue-text">or continue with</p>
