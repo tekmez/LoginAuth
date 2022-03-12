@@ -1,23 +1,28 @@
 .store-top-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 22rem));
+    grid-template-rows: auto;
+    gap: 3rem;
+    place-content: center;
     width: 100vw;
     height: 100vh;
-    background: url(./components/background.jpg);
+    background: url(./components/background.jpg) center center no-repeat;
+    overflow: auto;
 }
 .card{
-    width: 350px;
-    height: 570px;
+    height: 35.625em;
     filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.1));
     background-color: rgba(255, 255, 255, 1);
     border-radius: 25px;
 }
+.card-content{
+    font-size: 1rem;
+}
 .card-title{
-    margin: 0 50px;
+    margin: 0 3.125rem;
 }
 .card-btn{
-    width: 300px;
+    width: 18.75rem;
     height: 50px;
     font-weight: bold;
     font-size: 20px;

@@ -5,7 +5,7 @@ function Card() {
             <div className='card'>
                 <img src={require('./storePageCar.png')} className="card-img" alt="bmw"/>
                 <h2 className='card-title'>Model: BMW 4 Series</h2>
-                <p>
+                <p className="card-content">
                     <ul>
                         <li>19" Bicolour Double-spoke M light alloy wheels</li>
                         <li>Exclusive Aluminium Fabric High-gloss interior trim </li>
